@@ -1,0 +1,7 @@
+vector1 <- c(1, 2, 3, 4, 5, 6, 7, 8, 9)
+vector2 <- c(10, 11, 12, 13, 14, 15, 16, 17, 18)
+combined_vector <- c(vector1, vector2)
+dims <- c(3, 3, 2)
+dim_names <- list(c("Row1", "Row2", "Row3"), c("Col1", "Col2", "Col3"), c("Layer1", "Layer2"))
+my_array <- array(combined_vector, dim = dims, dimnames = dim_names)
+print(my_array)
